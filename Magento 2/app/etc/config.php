@@ -349,7 +349,6 @@ return [
         'Dotdigitalgroup_ChatGraphQl' => 1,
         'Dotdigitalgroup_EmailGraphQl' => 1,
         'Dotdigitalgroup_Sms' => 1,
-        'I95dev_Grid' => 1,
         'I95dev_HelloWorld' => 1,
         'I95dev_HelloWorld2' => 1,
         'Klarna_Core' => 1,
@@ -366,6 +365,7 @@ return [
         'Vertex_RequestLoggingApi' => 1,
         'Vertex_RequestLogging' => 1,
         'Vertex_AddressValidation' => 1,
+        'Webkul_Grid' => 1,
         'Yotpo_Yotpo' => 1
     ]
 ];

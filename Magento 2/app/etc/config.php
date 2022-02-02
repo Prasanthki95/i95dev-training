@@ -349,6 +349,7 @@ return [
         'Dotdigitalgroup_ChatGraphQl' => 1,
         'Dotdigitalgroup_EmailGraphQl' => 1,
         'Dotdigitalgroup_Sms' => 1,
+        'I95Dev_ZolutiaShipment' => 1,
         'I95dev_HelloWorld' => 1,
         'I95dev_HelloWorld2' => 1,
         'Klarna_Core' => 1,

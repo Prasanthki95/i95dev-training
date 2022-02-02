@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1643717353;s:6:"expire";i:1675253353;s:4:"tags";s:37:"e2b_LAYOUT_GENERAL_CACHE_TAG,e2b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1643805975;s:6:"expire";i:1675341975;s:4:"tags";s:37:"e2b_LAYOUT_GENERAL_CACHE_TAG,e2b_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_dashboard_index"><body>
    <referenceContainer name="content">
@@ -8171,6 +8171,36 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1643717353;s:6:"expire";i:1675253353;s:4:"t
       <uiComponent name="dotdigitalgroup_sms_report_grid"/>
    </referenceContainer>
 </body>
+</handle><handle id="zolutiashipment_zolutia_edit" layout="admin-2columns-left"><head>
+   <css src="jquery/fileUploader/css/jquery.fileupload-ui.css"/>
+</head>
+<update handle="editor"/>
+<body>
+   <referenceContainer name="content">
+      <block class="I95Dev\ZolutiaShipment\Block\Adminhtml\Zolutia\Edit" name="zolutiashipment_zolutia_edit"/>
+   </referenceContainer>
+   <referenceContainer name="left">
+      <block class="I95Dev\ZolutiaShipment\Block\Adminhtml\Zolutia\Edit\Tabs" name="zolutiashipment_zolutia_edit_tabs">
+         <block class="I95Dev\ZolutiaShipment\Block\Adminhtml\Zolutia\Edit\Tab\Main" name="zolutiashipment_zolutia_edit_tab_main"/>
+         <action method="addTab">
+            <argument name="name" xsi:type="string">main_section</argument>
+            <argument name="block" xsi:type="string">zolutiashipment_zolutia_edit_tab_main</argument>
+         </action>
+      </block>
+   </referenceContainer>
+</body>
+</handle><layout id="zolutiashipment_zolutia_grid"><update handle="formkey"/>
+<container name="root" label="Root">
+   <block class="I95Dev\ZolutiaShipment\Block\Adminhtml\Zolutia\Grid" name="admin.zolutiashipment.zolutia.grid"/>
+</container>
+</layout><handle id="zolutiashipment_zolutia_index"><body>
+   <referenceContainer name="content">
+      <block class="I95Dev\ZolutiaShipment\Block\Adminhtml\Zolutia" name="zolutiashipment_zolutia_listing"/>
+   </referenceContainer>
+   <referenceContainer name="admin.zolutiashipment.zolutia.grid"/>
+</body>
+</handle><handle id="zolutiashipment_zolutia_new" layout="admin-2columns-left"><update handle="zolutiashipment_zolutia_edit"/>
+<body/>
 </handle><handle id="adminhtml_system_config_edit"><head>
    <css src="Klarna_Core::styles.css"/>
 </head>

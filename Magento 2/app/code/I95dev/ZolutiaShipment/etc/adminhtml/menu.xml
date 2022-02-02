@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="I95Dev_ZolutiaShipment::parent" title="ZolutiaShipment" module="I95Dev_ZolutiaShipment" sortOrder="100" resource="I95Dev_ZolutiaShipment::parent"/>
+		<add id="I95Dev_ZolutiaShipment::zolutia" title="ZolutiaShipment Zolutia" module="I95Dev_ZolutiaShipment" sortOrder="20" parent="I95Dev_ZolutiaShipment::parent" action="zolutiashipment/zolutia" resource="I95Dev_ZolutiaShipment::zolutia"/>
+
+    </menu>
+</config>

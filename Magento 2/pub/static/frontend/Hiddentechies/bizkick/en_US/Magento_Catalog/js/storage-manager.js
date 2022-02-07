@@ -1,0 +1,1 @@
+/var/www/html/243magento/vendor/magento/module-catalog/view/frontend/web/js/storage-manager.js

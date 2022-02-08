@@ -1,1 +1,0 @@
-/var/www/html/243magento/vendor/magento/module-theme/view/adminhtml/web/js/form/component/robots-reset-button.js

@@ -351,8 +351,6 @@ return [
         'Dotdigitalgroup_Sms' => 1,
         'Hiddentechies_Base' => 1,
         'Hiddentechies_Bizkick' => 1,
-        'I95Dev_EventsTraining' => 1,
-        'I95Dev_PluginTraining' => 1,
         'I95Dev_ZolutiaShipment' => 1,
         'I95dev_HelloWorld' => 1,
         'I95dev_HelloWorld2' => 1,

@@ -1,0 +1,19 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1644495832;s:6:"expire";i:1644499432;s:4:"tags";s:48:"e2b_BLOCK_HTML,e2b_CAT_P_2048,e2b_CAT_P,e2b_MAGE";}
+<div class="swatch-opt" data-role="swatch-options"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-options]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "jsonConfig": {"attributes":{"159":{"id":"159","code":"RAM","label":"RAM","options":[{"id":"214","label":"4GB","products":["2051","2052"]},{"id":"215","label":"6GB","products":["2053","2054"]}],"position":"0"},"161":{"id":"161","code":"storage","label":"Storage","options":[{"id":"216","label":"64GB","products":["2051","2053"]},{"id":"217","label":"128GB","products":["2052","2054"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"2051":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200},"tierPrices":[],"msrpPrice":{"amount":0}},"2052":{"baseOldPrice":{"amount":250},"oldPrice":{"amount":250},"basePrice":{"amount":250},"finalPrice":{"amount":250},"tierPrices":[],"msrpPrice":{"amount":0}},"2053":{"baseOldPrice":{"amount":250},"oldPrice":{"amount":250},"basePrice":{"amount":250},"finalPrice":{"amount":250},"tierPrices":[],"msrpPrice":{"amount":0}},"2054":{"baseOldPrice":{"amount":300},"oldPrice":{"amount":300},"basePrice":{"amount":300},"finalPrice":{"amount":300},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":200},"oldPrice":{"amount":200},"basePrice":{"amount":200},"finalPrice":{"amount":200}},"productId":"2048","chooseText":"Choose an Option...","images":[],"index":{"2051":{"159":"214","161":"216"},"2052":{"159":"214","161":"217"},"2053":{"159":"215","161":"216"},"2054":{"159":"215","161":"217"}},"channel":"website","salesChannelCode":"base","sku":{"2051":"Mobile-4GB-64GB","2052":"Mobile-4GB-128GB","2053":"Mobile-6GB-64GB","2054":"Mobile-6GB-128GB"}},
+                "jsonSwatchConfig": {"159":{"214":{"type":"0","value":"4GB","label":"4GB"},"215":{"type":"0","value":"6GB","label":"6GB"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"},"161":{"216":{"type":"0","value":"64GB","label":"64GB"},"217":{"type":"0","value":"128GB","label":"128GB"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "http\u003A\u002F\u002F243magento.com\u002Findex.php\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "gallerySwitchStrategy": "prepend",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        },
+        "*" : {
+            "Magento_Swatches/js/catalog-add-to-cart": {}
+        }
+    }
+</script>

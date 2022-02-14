@@ -354,6 +354,7 @@ return [
         'I95Dev_ZolutiaShipment' => 1,
         'I95dev_HelloWorld' => 1,
         'I95dev_HelloWorld2' => 1,
+        'I95dev_employeeform' => 1,
         'Klarna_Core' => 1,
         'Klarna_Ordermanagement' => 1,
         'Klarna_Kp' => 1,

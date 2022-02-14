@@ -1,1 +1,0 @@
-/var/www/html/243magento/lib/web/jquery/jquery.cookie.js

@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1644848210;s:6:"expire";i:1676384210;s:4:"tags";s:37:"e2b_LAYOUT_GENERAL_CACHE_TAG,e2b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1644932988;s:6:"expire";i:1676468988;s:4:"tags";s:37:"e2b_LAYOUT_GENERAL_CACHE_TAG,e2b_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7305,11 +7305,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1644848210;s:6:"expire";i:1676384210;s:4:"t
 </handle><handle id="sample_index_index" layout="1column"><body>
    <referenceContainer name="content">
       <block class="I95dev\HelloWorld2\Block\Helloworld" name="sample" template="helloworld.phtml"/>
-   </referenceContainer>
-</body>
-</handle><handle id="empform_index_index" layout="1column"><body>
-   <referenceContainer name="content">
-      <block class="I95dev\employeeform\Block\Helloworld" name="empform" template="empform.phtml"/>
    </referenceContainer>
 </body>
 </handle><handle id="checkout_index_index"><body>

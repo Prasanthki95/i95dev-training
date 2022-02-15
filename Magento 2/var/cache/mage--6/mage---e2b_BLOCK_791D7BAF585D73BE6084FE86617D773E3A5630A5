@@ -1,0 +1,115 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1644932989;s:6:"expire";i:1645019389;s:4:"tags";s:48:"e2b_CAT_P,e2b_BLOCK_HTML,e2b_CAT_P_2048,e2b_MAGE";}
+            <div class="owl-button-top above-padding below-padding block widget block-products-list grid">
+                    <div class="page-title-main">
+                <strong>Featured Products</strong>
+            </div>
+                <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
+                <div class="slider-outer">
+                    <ol style="margin-bottom: 0;" class="product-widget-slider products list items product-items widget-product-grid">
+                                                                            <li class="product-slider product-item">                            <div class="product-item-info">
+                                <div class="product-img-main">
+                                    <a href="http://243magento.com/index.php/mobile.html" class="product-item-photo ">
+                                        <span class="product-image-container product-image-container-2048">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://243magento.com/media/catalog/product/cache/b63357ef975f8c4ba7efc13e9d134fe6/i/n/index.jpeg"
+            loading="lazy"
+            width="240"
+            height="300"
+            alt="Mobile&#x20;Phone"/></span>
+</span>
+<style>.product-image-container-2048 {
+    width: 240px;
+}
+.product-image-container-2048 span.product-image-wrapper {
+    padding-bottom: 125%;
+}</style><script type="text&#x2F;javascript">prodImageContainers = document.querySelectorAll(".product-image-container-2048");
+for (var i = 0; i < prodImageContainers.length; i++) {
+    prodImageContainers[i].style.width = "240px";
+}
+prodImageContainersWrappers = document.querySelectorAll(
+    ".product-image-container-2048  span.product-image-wrapper"
+);
+for (var i = 0; i < prodImageContainersWrappers.length; i++) {
+    prodImageContainersWrappers[i].style.paddingBottom = "125%";
+}</script>                                                                            </a>
+                                    <div class="product-item-inner">
+                                                                                    <div class="product actions product-item-actions">
+                                                <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/243magento.com\/index.php\/wishlist\/index\/add\/","data":{"product":2048,"uenc":"aHR0cDovLzI0M21hZ2VudG8uY29tLw,,"}}'
+                                                           class="action towishlist" data-action="add-to-wishlist"
+                                                           title="Add to Wish List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                           data-post='{"action":"http:\/\/243magento.com\/index.php\/catalog\/product_compare\/add\/","data":{"product":"2048","uenc":"aHR0cDovLzI0M21hZ2VudG8uY29tLw,,"}}'
+                                                           title="Add to Compare">
+                                                            <span>Add to Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="product-item-details">
+                                    <strong class="product-item-name">
+                                        <a title="Mobile Phone"
+                                           href="http://243magento.com/index.php/mobile.html"
+                                           class="product-item-link">
+                                               Mobile Phone                                        </a>
+                                    </strong>
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="2048" data-price-box="product-id-2048"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="old-price-2048-widget-product-grid"                data-price-amount="200"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$200.00</span></span>
+        </span>
+</span>
+
+
+</div>
+                                                                                                                
+                                                                            <div class="product-item-inner">
+                                            <div class="product-item-actions">
+                                                                                                    <div class="actions-primary">
+                                                                                                                                                                                    <button class="action tocart primary"
+                                                                        data-mage-init='{"redirectUrl":{"url":"http://243magento.com/index.php/checkout/cart/add/uenc/aHR0cDovLzI0M21hZ2VudG8uY29tLw%2C%2C/product/2048/"}}'
+                                                                        type="button" title="Add to Cart">
+                                                                    <span>Add to Cart</span>
+                                                                </button>
+                                                                                                                                                                        </div>
+                                                                                            </div>
+                                        </div>
+                                                                    </div>
+                            </div>
+                            </li>                                            </ol>
+                </div>
+            </div>
+                    </div>
+    </div>
+    <script type="text/javascript" xml="space">
+        require(['jquery', 'bizkickowlcarousel'], function() {
+            jQuery(document).ready(function() {
+                jQuery(".product-widget-slider").owlCarousel({
+                    items: 5,
+                    itemsDesktop: [1199, 4],
+                    itemsDesktopSmall: [991, 4],
+                    itemsTablet: [767, 3],
+                    itemsTabletSmall: [639, 3],
+                    itemsMobile: [479, 2],
+                    pagination: false,
+                    navigationText: ["<div class='left-arrow'><i class='fa fa-angle-left'></i></div>", "<div class='right-arrow'><i class='fa fa-angle-right'></div>"],
+                    navigation: true,
+                });
+            });
+            jQuery(window).load(function() {
+                jQuery('.product-widget-slider .product-slider').show();
+            });
+        });
+    </script>

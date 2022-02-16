@@ -1,1 +1,0 @@
-/var/www/html/243magento/vendor/magento/module-inventory-sales-admin-ui/view/adminhtml/web/js/stock/grid/cell/sales-channels.js

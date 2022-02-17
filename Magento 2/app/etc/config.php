@@ -354,6 +354,7 @@ return [
         'I95Dev_ZolutiaShipment' => 1,
         'I95dev_Addattribute' => 1,
         'I95dev_Addcolumn' => 1,
+        'I95dev_Addproductattribute' => 1,
         'I95dev_HelloWorld' => 1,
         'I95dev_HelloWorld2' => 1,
         'I95dev_employeeTable' => 1,

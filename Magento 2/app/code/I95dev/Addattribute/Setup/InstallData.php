@@ -1,45 +1,74 @@
 <?php
 namespace I95dev\Addattribute\Setup;
-use Magento\Eav\Setup\EavSetup;
-use Magento\Eav\Setup\EavSetupFactory;
+
+use Magento\Customer\Setup\CustomerSetupFactory;
+use Magento\Customer\Model\Customer;
+use Magento\Eav\Model\Entity\Attribute\Set as AttributeSet;
+use Magento\Eav\Model\Entity\Attribute\SetFactory as AttributeSetFactory;
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
-use Magento\Eav\Model\Config;
-use Magento\Customer\Model\Customer;
+
+/**
+ * @codeCoverageIgnore
+ */
 class InstallData implements InstallDataInterface
 {
-       private $eavSetupFactory;
-       public function __construct(EavSetupFactory $eavSetupFactory, Config $eavConfig)
-       {
-              $this->eavSetupFactory = $eavSetupFactory;
-              $this->eavConfig       = $eavConfig;
-       }
-       public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
-       {
-              $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
-              $eavSetup->addAttribute(
-                     \Magento\Customer\Model\Customer::ENTITY,
-                     'alternate_email',
-                     [
-                            'type'         => 'varchar',
-                            'label'        => 'Alternate Email',
-                            'input'        => 'text',
-                            'required'     => false,
-                            'visible'      => true,
-                            'user_defined' => true,
-                            'position'     => 999,
-                            'system'       => 0,
-                     ]
-              );
-              $alternateEmail = $this->eavConfig->getAttribute(Customer::ENTITY, 'altername_email');
 
-              // more used_in_forms ['adminhtml_checkout','adminhtml_customer','adminhtml_customer_address','customer_account_edit','customer_address_edit','customer_register_address']
-              $alternateEmail->setData(
-                     'used_in_forms',
-                     ['adminhtml_customer']
+    /**
+     * @var CustomerSetupFactory
+     */
+    protected $customerSetupFactory;
 
-              );
-              $alternateEmail->save();
-       }
+    /**
+     * @var AttributeSetFactory
+     */
+    private $attributeSetFactory;
+
+    /**
+     * @param CustomerSetupFactory $customerSetupFactory
+     * @param AttributeSetFactory $attributeSetFactory
+     */
+    public function __construct(
+        CustomerSetupFactory $customerSetupFactory,
+        AttributeSetFactory $attributeSetFactory
+    ) {
+        $this->customerSetupFactory = $customerSetupFactory;
+        $this->attributeSetFactory = $attributeSetFactory;
+    }
+
+
+    public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
+    {
+
+        /** @var CustomerSetup $customerSetup */
+        $customerSetup = $this->customerSetupFactory->create(['setup' => $setup]);
+
+        $customerEntity = $customerSetup->getEavConfig()->getEntityType('customer');
+        $attributeSetId = $customerEntity->getDefaultAttributeSetId();
+
+        /** @var $attributeSet AttributeSet */
+        $attributeSet = $this->attributeSetFactory->create();
+        $attributeGroupId = $attributeSet->getDefaultGroupId($attributeSetId);
+
+        $customerSetup->addAttribute(Customer::ENTITY, 'aadhaar_no', [
+            'type' => 'varchar',
+            'label' => 'Aadhaar Number',
+            'input' => 'text',
+            'required' => false,
+            'visible' => true,
+            'user_defined' => true,
+            'position' =>999,
+            'system' => 0,
+        ]);
+
+        $attribute = $customerSetup->getEavConfig()->getAttribute(Customer::ENTITY, 'aadhaar_no')
+        ->addData([
+            'attribute_set_id' => $attributeSetId,
+            'attribute_group_id' => $attributeGroupId,
+            'used_in_forms' => ['adminhtml_customer'],//you can use other forms also ['adminhtml_customer_address', 'customer_address_edit', 'customer_register_address']
+        ]);
+
+        $attribute->save();
+    }
 }

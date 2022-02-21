@@ -1,1 +1,0 @@
-/var/www/html/243magento/vendor/magento/module-catalog/view/adminhtml/web/js/components/new-attribute-insert-form.js

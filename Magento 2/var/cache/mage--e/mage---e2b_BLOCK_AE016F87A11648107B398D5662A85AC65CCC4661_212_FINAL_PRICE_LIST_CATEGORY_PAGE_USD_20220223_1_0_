@@ -1,0 +1,118 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1645603920;s:6:"expire";i:1645690320;s:4:"tags";s:47:"e2b_BLOCK_HTML,e2b_CAT_P_212,e2b_CAT_P,e2b_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="212" data-price-box="product-id-212"><div class="debugging-hints" id="hintsId_RcXK0QaAMElGFuZr6dHRSOUj8Z6eY1Di">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_yI6yN7zyvTTRtWW4YALLUAlMNVJ4J74V" title="/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml">/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml</div>
+<span class="normal-price">
+    <div class="debugging-hints" id="hintsId_HpAxLHinzdjXHAUIIOqqGkUZ0cRvQnxj">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_mTvkl0ToYkcifg2OIVZ8IgjeK4dll6zR" title="/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml">/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml</div>
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="product-price-212"                data-price-amount="62"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$62.00</span></span>
+        </span>
+
+</div><script type="text&#x2F;javascript">var elem5QYI9DfR = document.querySelector('#hintsId_HpAxLHinzdjXHAUIIOqqGkUZ0cRvQnxj');
+if (elem5QYI9DfR) {
+elem5QYI9DfR.style.position = 'relative';
+elem5QYI9DfR.style.border = '1px dotted red';
+elem5QYI9DfR.style.margin = '6px 2px';
+elem5QYI9DfR.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elem1WJXxA3I = document.querySelector('#hintsTemplateFileId_mTvkl0ToYkcifg2OIVZ8IgjeK4dll6zR');
+if (elem1WJXxA3I) {
+elem1WJXxA3I.style.position = 'absolute';
+elem1WJXxA3I.style.top = '0';
+elem1WJXxA3I.style.padding = '2px 5px';
+elem1WJXxA3I.style.font = 'normal 11px Arial';
+elem1WJXxA3I.style.background = 'red';
+elem1WJXxA3I.style.left = '0';
+elem1WJXxA3I.style.color = 'white';
+elem1WJXxA3I.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListenereN7odWNqOB () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElementeN7odWNqOBArray = document.querySelectorAll("#hintsTemplateFileId_mTvkl0ToYkcifg2OIVZ8IgjeK4dll6zR");
+    if(listenedElementeN7odWNqOBArray.length !== 'undefined'){
+        listenedElementeN7odWNqOBArray.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenereN7odWNqOB.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListenerVQDa5Z5cfA () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElementVQDa5Z5cfAArray = document.querySelectorAll("#hintsTemplateFileId_mTvkl0ToYkcifg2OIVZ8IgjeK4dll6zR");
+    if(listenedElementVQDa5Z5cfAArray.length !== 'undefined'){
+        listenedElementVQDa5Z5cfAArray.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerVQDa5Z5cfA.apply(targetElement);
+                };
+            }
+        });
+    }</script></span>
+
+
+
+</div><script type="text&#x2F;javascript">var elem15ldccOt = document.querySelector('#hintsId_RcXK0QaAMElGFuZr6dHRSOUj8Z6eY1Di');
+if (elem15ldccOt) {
+elem15ldccOt.style.position = 'relative';
+elem15ldccOt.style.border = '1px dotted red';
+elem15ldccOt.style.margin = '6px 2px';
+elem15ldccOt.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elemnLnEGFnm = document.querySelector('#hintsTemplateFileId_yI6yN7zyvTTRtWW4YALLUAlMNVJ4J74V');
+if (elemnLnEGFnm) {
+elemnLnEGFnm.style.position = 'absolute';
+elemnLnEGFnm.style.top = '0';
+elemnLnEGFnm.style.padding = '2px 5px';
+elemnLnEGFnm.style.font = 'normal 11px Arial';
+elemnLnEGFnm.style.background = 'red';
+elemnLnEGFnm.style.left = '0';
+elemnLnEGFnm.style.color = 'white';
+elemnLnEGFnm.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListenerzAayphsdxw () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElementzAayphsdxwArray = document.querySelectorAll("#hintsTemplateFileId_yI6yN7zyvTTRtWW4YALLUAlMNVJ4J74V");
+    if(listenedElementzAayphsdxwArray.length !== 'undefined'){
+        listenedElementzAayphsdxwArray.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerzAayphsdxw.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListenertNk3pBaCFT () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElementtNk3pBaCFTArray = document.querySelectorAll("#hintsTemplateFileId_yI6yN7zyvTTRtWW4YALLUAlMNVJ4J74V");
+    if(listenedElementtNk3pBaCFTArray.length !== 'undefined'){
+        listenedElementtNk3pBaCFTArray.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenertNk3pBaCFT.apply(targetElement);
+                };
+            }
+        });
+    }</script></div>

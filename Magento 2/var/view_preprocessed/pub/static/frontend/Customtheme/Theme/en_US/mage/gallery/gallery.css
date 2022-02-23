@@ -190,7 +190,7 @@
 .fotorama__nav__frame--dot:focus .fotorama__dot:after {
   border-radius: inherit;
   bottom: 3px;
-  box-shadow: 0 0 3px 1px #00699d;
+  box-shadow: 0 0 3px 1px #68a8e0;
   content: '';
   left: 3px;
   position: absolute;

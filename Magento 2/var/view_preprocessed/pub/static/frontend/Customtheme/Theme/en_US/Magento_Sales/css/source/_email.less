@@ -7,17 +7,9 @@
 //  Sales Module Styles
 //  _____________________________________________
 
-.email-intro {
-    td {
-        padding-bottom: @indent__base;
-    }
-}
-
 .email-summary {
     h1 {
-        border-bottom: @border-width__base solid @border-color__base;
-        margin-bottom: @indent__s;
-        padding-bottom: @indent__s;
+        margin-bottom: @indent__xs;
     }
 }
 
@@ -32,7 +24,7 @@
 
 //
 //  Order Summary
-//  ---------------------------------------------
+//  ----------------------------------------------
 
 .order-details {
     width: 100%;
@@ -101,7 +93,7 @@
 
 //
 //  Shipment Tracking
-//  ---------------------------------------------
+//  ----------------------------------------------
 
 .shipment-track {
     .lib-table(@table__width, 0);
@@ -111,7 +103,7 @@
         > tr {
             > th,
             > td {
-                background-color: @email__background-color;
+                background-color: @color-gray95;
                 padding: @email-content__padding__base;
                 width: 50%;
             }
@@ -128,15 +120,18 @@
 
 //
 //  Items Table
-//  ---------------------------------------------
+//  ----------------------------------------------
 
 .email-items {
     .lib-table(@table__width, 0);
+    border: @table__border-width @table__border-style @table__border-color;
+
+    thead,
     tfoot {
         > tr {
             > th,
             > td {
-                background-color: @email__background-color;
+                background-color: @color-gray95
             }
         }
     }
@@ -159,7 +154,8 @@
         }
     }
 
-    > tbody {
+    > tbody,
+    > tfoot {
         > tr {
             > th,
             > td {

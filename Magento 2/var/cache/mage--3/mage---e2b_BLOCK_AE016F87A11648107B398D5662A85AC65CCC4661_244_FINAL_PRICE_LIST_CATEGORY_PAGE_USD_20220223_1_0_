@@ -1,0 +1,118 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1645603921;s:6:"expire";i:1645690321;s:4:"tags";s:47:"e2b_BLOCK_HTML,e2b_CAT_P_244,e2b_CAT_P,e2b_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="244" data-price-box="product-id-244"><div class="debugging-hints" id="hintsId_5mq0sRmilq53rJWLUx6vN4HOoWYOUJ8M">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_q19qxdzFuqwlzhfjPav00o1Rsur56lty" title="/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml">/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml</div>
+<span class="normal-price">
+    <div class="debugging-hints" id="hintsId_YEh56nWl5BJnAMqBWt7NWQy5Cweu2A0K">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_CK4cVuEDev8dEMw051bJctFbZZhv3S4k" title="/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml">/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml</div>
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="product-price-244"                data-price-amount="69"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$69.00</span></span>
+        </span>
+
+</div><script type="text&#x2F;javascript">var elem4zDhIEmW = document.querySelector('#hintsId_YEh56nWl5BJnAMqBWt7NWQy5Cweu2A0K');
+if (elem4zDhIEmW) {
+elem4zDhIEmW.style.position = 'relative';
+elem4zDhIEmW.style.border = '1px dotted red';
+elem4zDhIEmW.style.margin = '6px 2px';
+elem4zDhIEmW.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elemu3v2rPTS = document.querySelector('#hintsTemplateFileId_CK4cVuEDev8dEMw051bJctFbZZhv3S4k');
+if (elemu3v2rPTS) {
+elemu3v2rPTS.style.position = 'absolute';
+elemu3v2rPTS.style.top = '0';
+elemu3v2rPTS.style.padding = '2px 5px';
+elemu3v2rPTS.style.font = 'normal 11px Arial';
+elemu3v2rPTS.style.background = 'red';
+elemu3v2rPTS.style.left = '0';
+elemu3v2rPTS.style.color = 'white';
+elemu3v2rPTS.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListenersKl63NVYAH () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElementsKl63NVYAHArray = document.querySelectorAll("#hintsTemplateFileId_CK4cVuEDev8dEMw051bJctFbZZhv3S4k");
+    if(listenedElementsKl63NVYAHArray.length !== 'undefined'){
+        listenedElementsKl63NVYAHArray.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenersKl63NVYAH.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListener8NR0BtmnBC () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElement8NR0BtmnBCArray = document.querySelectorAll("#hintsTemplateFileId_CK4cVuEDev8dEMw051bJctFbZZhv3S4k");
+    if(listenedElement8NR0BtmnBCArray.length !== 'undefined'){
+        listenedElement8NR0BtmnBCArray.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListener8NR0BtmnBC.apply(targetElement);
+                };
+            }
+        });
+    }</script></span>
+
+
+
+</div><script type="text&#x2F;javascript">var elemF2ZTn1f1 = document.querySelector('#hintsId_5mq0sRmilq53rJWLUx6vN4HOoWYOUJ8M');
+if (elemF2ZTn1f1) {
+elemF2ZTn1f1.style.position = 'relative';
+elemF2ZTn1f1.style.border = '1px dotted red';
+elemF2ZTn1f1.style.margin = '6px 2px';
+elemF2ZTn1f1.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elemkKwUGc9q = document.querySelector('#hintsTemplateFileId_q19qxdzFuqwlzhfjPav00o1Rsur56lty');
+if (elemkKwUGc9q) {
+elemkKwUGc9q.style.position = 'absolute';
+elemkKwUGc9q.style.top = '0';
+elemkKwUGc9q.style.padding = '2px 5px';
+elemkKwUGc9q.style.font = 'normal 11px Arial';
+elemkKwUGc9q.style.background = 'red';
+elemkKwUGc9q.style.left = '0';
+elemkKwUGc9q.style.color = 'white';
+elemkKwUGc9q.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListenerWDiNibEa0X () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElementWDiNibEa0XArray = document.querySelectorAll("#hintsTemplateFileId_q19qxdzFuqwlzhfjPav00o1Rsur56lty");
+    if(listenedElementWDiNibEa0XArray.length !== 'undefined'){
+        listenedElementWDiNibEa0XArray.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerWDiNibEa0X.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListener0Kgluj8VFP () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElement0Kgluj8VFPArray = document.querySelectorAll("#hintsTemplateFileId_q19qxdzFuqwlzhfjPav00o1Rsur56lty");
+    if(listenedElement0Kgluj8VFPArray.length !== 'undefined'){
+        listenedElement0Kgluj8VFPArray.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListener0Kgluj8VFP.apply(targetElement);
+                };
+            }
+        });
+    }</script></div>

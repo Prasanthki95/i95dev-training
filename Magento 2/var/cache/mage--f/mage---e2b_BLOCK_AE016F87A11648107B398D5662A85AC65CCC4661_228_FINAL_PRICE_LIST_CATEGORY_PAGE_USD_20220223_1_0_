@@ -1,0 +1,118 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1645603921;s:6:"expire";i:1645690321;s:4:"tags";s:47:"e2b_BLOCK_HTML,e2b_CAT_P_228,e2b_CAT_P,e2b_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="228" data-price-box="product-id-228"><div class="debugging-hints" id="hintsId_Et87ENDTOz7jGzH2Qfjp9CCog468yVVl">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_pWXWN7UZ9PrIMf3BzfN3WxPLoiMula7G" title="/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml">/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml</div>
+<span class="normal-price">
+    <div class="debugging-hints" id="hintsId_g1zAgOXnoj5qWfjig3CJspnCYq3FgGsj">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_WKLJFzKSW2BjWrAyREQzkooh1n5S5Xgj" title="/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml">/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml</div>
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="product-price-228"                data-price-amount="64"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$64.00</span></span>
+        </span>
+
+</div><script type="text&#x2F;javascript">var elemiwwywMbw = document.querySelector('#hintsId_g1zAgOXnoj5qWfjig3CJspnCYq3FgGsj');
+if (elemiwwywMbw) {
+elemiwwywMbw.style.position = 'relative';
+elemiwwywMbw.style.border = '1px dotted red';
+elemiwwywMbw.style.margin = '6px 2px';
+elemiwwywMbw.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elemx59nZ4p8 = document.querySelector('#hintsTemplateFileId_WKLJFzKSW2BjWrAyREQzkooh1n5S5Xgj');
+if (elemx59nZ4p8) {
+elemx59nZ4p8.style.position = 'absolute';
+elemx59nZ4p8.style.top = '0';
+elemx59nZ4p8.style.padding = '2px 5px';
+elemx59nZ4p8.style.font = 'normal 11px Arial';
+elemx59nZ4p8.style.background = 'red';
+elemx59nZ4p8.style.left = '0';
+elemx59nZ4p8.style.color = 'white';
+elemx59nZ4p8.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListenerBpgR4bnqAs () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElementBpgR4bnqAsArray = document.querySelectorAll("#hintsTemplateFileId_WKLJFzKSW2BjWrAyREQzkooh1n5S5Xgj");
+    if(listenedElementBpgR4bnqAsArray.length !== 'undefined'){
+        listenedElementBpgR4bnqAsArray.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerBpgR4bnqAs.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListenerbs4yqYUU67 () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElementbs4yqYUU67Array = document.querySelectorAll("#hintsTemplateFileId_WKLJFzKSW2BjWrAyREQzkooh1n5S5Xgj");
+    if(listenedElementbs4yqYUU67Array.length !== 'undefined'){
+        listenedElementbs4yqYUU67Array.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerbs4yqYUU67.apply(targetElement);
+                };
+            }
+        });
+    }</script></span>
+
+
+
+</div><script type="text&#x2F;javascript">var elemSUindagT = document.querySelector('#hintsId_Et87ENDTOz7jGzH2Qfjp9CCog468yVVl');
+if (elemSUindagT) {
+elemSUindagT.style.position = 'relative';
+elemSUindagT.style.border = '1px dotted red';
+elemSUindagT.style.margin = '6px 2px';
+elemSUindagT.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elem99SKxlc7 = document.querySelector('#hintsTemplateFileId_pWXWN7UZ9PrIMf3BzfN3WxPLoiMula7G');
+if (elem99SKxlc7) {
+elem99SKxlc7.style.position = 'absolute';
+elem99SKxlc7.style.top = '0';
+elem99SKxlc7.style.padding = '2px 5px';
+elem99SKxlc7.style.font = 'normal 11px Arial';
+elem99SKxlc7.style.background = 'red';
+elem99SKxlc7.style.left = '0';
+elem99SKxlc7.style.color = 'white';
+elem99SKxlc7.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListener8mIE69fkgx () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElement8mIE69fkgxArray = document.querySelectorAll("#hintsTemplateFileId_pWXWN7UZ9PrIMf3BzfN3WxPLoiMula7G");
+    if(listenedElement8mIE69fkgxArray.length !== 'undefined'){
+        listenedElement8mIE69fkgxArray.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListener8mIE69fkgx.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListenerzneWPmOehU () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElementzneWPmOehUArray = document.querySelectorAll("#hintsTemplateFileId_pWXWN7UZ9PrIMf3BzfN3WxPLoiMula7G");
+    if(listenedElementzneWPmOehUArray.length !== 'undefined'){
+        listenedElementzneWPmOehUArray.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerzneWPmOehU.apply(targetElement);
+                };
+            }
+        });
+    }</script></div>

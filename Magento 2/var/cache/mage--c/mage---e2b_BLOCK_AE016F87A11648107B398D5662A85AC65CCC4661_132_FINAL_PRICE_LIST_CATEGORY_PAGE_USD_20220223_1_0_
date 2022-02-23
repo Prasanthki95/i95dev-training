@@ -1,0 +1,118 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1645603920;s:6:"expire";i:1645690320;s:4:"tags";s:47:"e2b_BLOCK_HTML,e2b_CAT_P_132,e2b_CAT_P,e2b_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="132" data-price-box="product-id-132"><div class="debugging-hints" id="hintsId_AeTXyPtDmCEzqMjHfPzQgmD7bfr37EZf">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_IfFT7VRlbTAuRBtUtcIHVKNgQlGcsD2N" title="/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml">/var/www/html/243magento/vendor/magento/module-configurable-product/view/base/templates/product/price/final_price.phtml</div>
+<span class="normal-price">
+    <div class="debugging-hints" id="hintsId_TwXAdMFhrZPuyWguRryHexmAz3azCTNK">
+<div class="debugging-hint-template-file" id="hintsTemplateFileId_6nbQ0DaRoAA6MLORgN9ONcUda8VajWaE" title="/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml">/var/www/html/243magento/vendor/magento/module-catalog/view/base/templates/product/price/amount/default.phtml</div>
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="product-price-132"                data-price-amount="52"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$52.00</span></span>
+        </span>
+
+</div><script type="text&#x2F;javascript">var elemckVhMiM5 = document.querySelector('#hintsId_TwXAdMFhrZPuyWguRryHexmAz3azCTNK');
+if (elemckVhMiM5) {
+elemckVhMiM5.style.position = 'relative';
+elemckVhMiM5.style.border = '1px dotted red';
+elemckVhMiM5.style.margin = '6px 2px';
+elemckVhMiM5.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elemeivcXgwm = document.querySelector('#hintsTemplateFileId_6nbQ0DaRoAA6MLORgN9ONcUda8VajWaE');
+if (elemeivcXgwm) {
+elemeivcXgwm.style.position = 'absolute';
+elemeivcXgwm.style.top = '0';
+elemeivcXgwm.style.padding = '2px 5px';
+elemeivcXgwm.style.font = 'normal 11px Arial';
+elemeivcXgwm.style.background = 'red';
+elemeivcXgwm.style.left = '0';
+elemeivcXgwm.style.color = 'white';
+elemeivcXgwm.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListenerEdpPd1UaG2 () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElementEdpPd1UaG2Array = document.querySelectorAll("#hintsTemplateFileId_6nbQ0DaRoAA6MLORgN9ONcUda8VajWaE");
+    if(listenedElementEdpPd1UaG2Array.length !== 'undefined'){
+        listenedElementEdpPd1UaG2Array.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerEdpPd1UaG2.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListenerikCzEiFQqQ () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElementikCzEiFQqQArray = document.querySelectorAll("#hintsTemplateFileId_6nbQ0DaRoAA6MLORgN9ONcUda8VajWaE");
+    if(listenedElementikCzEiFQqQArray.length !== 'undefined'){
+        listenedElementikCzEiFQqQArray.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerikCzEiFQqQ.apply(targetElement);
+                };
+            }
+        });
+    }</script></span>
+
+
+
+</div><script type="text&#x2F;javascript">var elemTjkjI04P = document.querySelector('#hintsId_AeTXyPtDmCEzqMjHfPzQgmD7bfr37EZf');
+if (elemTjkjI04P) {
+elemTjkjI04P.style.position = 'relative';
+elemTjkjI04P.style.border = '1px dotted red';
+elemTjkjI04P.style.margin = '6px 2px';
+elemTjkjI04P.style.padding = '18px 2px 2px 2px';
+}</script><script type="text&#x2F;javascript">var elemctgADgvh = document.querySelector('#hintsTemplateFileId_IfFT7VRlbTAuRBtUtcIHVKNgQlGcsD2N');
+if (elemctgADgvh) {
+elemctgADgvh.style.position = 'absolute';
+elemctgADgvh.style.top = '0';
+elemctgADgvh.style.padding = '2px 5px';
+elemctgADgvh.style.font = 'normal 11px Arial';
+elemctgADgvh.style.background = 'red';
+elemctgADgvh.style.left = '0';
+elemctgADgvh.style.color = 'white';
+elemctgADgvh.style.whiteSpace = 'nowrap';
+}</script><script type="text&#x2F;javascript">    function eventListenerCxuTV0IPm4 () {
+        this.style.zIndex = 999;;
+    }
+    var listenedElementCxuTV0IPm4Array = document.querySelectorAll("#hintsTemplateFileId_IfFT7VRlbTAuRBtUtcIHVKNgQlGcsD2N");
+    if(listenedElementCxuTV0IPm4Array.length !== 'undefined'){
+        listenedElementCxuTV0IPm4Array.forEach(function(element) {
+            if (element) {
+                element.onmouseover = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListenerCxuTV0IPm4.apply(targetElement);
+                };
+            }
+        });
+    }</script><script type="text&#x2F;javascript">    function eventListener3QRUqGckNp () {
+        this.style.zIndex = 'auto';;
+    }
+    var listenedElement3QRUqGckNpArray = document.querySelectorAll("#hintsTemplateFileId_IfFT7VRlbTAuRBtUtcIHVKNgQlGcsD2N");
+    if(listenedElement3QRUqGckNpArray.length !== 'undefined'){
+        listenedElement3QRUqGckNpArray.forEach(function(element) {
+            if (element) {
+                element.onmouseout = function (event) {
+                    var targetElement = element;
+                    if (event && event.target) {
+                        targetElement = event.target;
+                    }
+                    eventListener3QRUqGckNp.apply(targetElement);
+                };
+            }
+        });
+    }</script></div>

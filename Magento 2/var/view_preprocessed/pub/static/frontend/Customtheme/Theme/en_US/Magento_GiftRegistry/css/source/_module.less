@@ -8,6 +8,7 @@
 //  _____________________________________________
 
 & when (@media-common = true) {
+
     .form-giftregistry-share,
     .form-giftregistry-edit {
         &:extend(.abs-add-fields all);
@@ -34,9 +35,6 @@
 
     .giftregisty-dropdown {
         &:extend(.abs-dropdown-simple all);
-        .action.toggle {
-            .lib-css(color, @link__color);
-        }
     }
 
     .table-giftregistry-items {
@@ -45,15 +43,14 @@
         }
 
         .product-image {
-            .lib-css(margin-right, @indent__s);
             float: left;
+            .lib-css(margin-right, @indent__s);
         }
     }
 
     .form.giftregistry .fieldset {
         .cart-summary & {
-            margin: 15px 0 @indent__xs;
-            text-align: left;
+            margin: 25px 0 @indent__xs;
 
             .field {
                 margin: 0 0 @indent__s;
@@ -65,20 +62,10 @@
             }
 
             .action.primary {
-                &:extend(.abs-revert-to-action-secondary all);
+                margin-bottom: 0;
+                &:extend(.abs-revert-secondary-color all);
+                &:extend(.abs-revert-secondary-size all);
             }
-        }
-    }
-
-    .form-giftregistry-create {
-        .fieldset {
-            &:extend(.abs-forms-margin-small all);
-        }
-    }
-
-    .form-giftregistry-edit {
-        .field.date {
-            &:extend(.abs-field-date all);
         }
     }
 
@@ -104,11 +91,11 @@
 
     .block-giftregistry-results {
         .block-title {
-            &:extend(.abs-account-title all);
+            &:extend(.abs-block-title all);
         }
 
-        .data.table {
-            &:extend(.abs-table-striped all);
+        .toolbar-giftregistry-results {
+            text-align: center;
         }
     }
 
@@ -128,7 +115,7 @@
 
     .block-giftregistry-shared-items {
         .block-title {
-            &:extend(.abs-account-title all);
+            &:extend(.abs-block-title all);
         }
 
         .product-image-wrapper {
@@ -136,17 +123,17 @@
         }
 
         .item {
-            .col {
-                border: 0;
-            }
-        }
-
-        th {
             border-bottom: @border-width__base solid @border-color__base;
         }
 
+        .qty {
+            .qty {
+                &:extend(.abs-input-qty all);
+            }
+        }
+
         .col {
-            padding: @cart-item-cell-padding-top 11px 10px;
+            padding: @indent__base 8px @indent__s;
 
             .price-box {
                 display: inline-block;
@@ -160,17 +147,11 @@
             }
         }
 
-        .qty {
-            .qty {
-                &:extend(.abs-input-qty all);
-            }
-        }
-
         .product {
             .item-options {
                 &:extend(.abs-product-options-list all);
                 &:extend(.abs-add-clearfix all);
-                margin: 0;
+                margin-bottom: 0;
             }
 
             &-item-photo {
@@ -180,7 +161,6 @@
             }
 
             &-item-name {
-                .lib-font-size(18);
                 display: block;
                 margin: 0 0 @indent__xs;
             }
@@ -193,14 +173,6 @@
 //  _____________________________________________
 
 .media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
-    .account {
-        .table-giftregistry {
-            .col.actions {
-                &:extend(.abs-col-no-prefix all);
-            }
-        }
-    }
-
     .table-giftregistry-items {
         .col.product {
             &:before {
@@ -217,45 +189,12 @@
 
     .form-giftregistry-search {
         .fieldset {
-            margin-bottom: @indent__base;
+            margin-bottom: 15px;
         }
     }
 
-    .block-giftregistry-results {
-        .block-title {
-            margin-bottom: 0;
-        }
-
-        .table-wrapper {
-            border-top: none;
-        }
-    }
-
-    .block-giftregistry-shared-items {
-        .block-title {
-            margin-bottom: @indent__s;
-        }
-
-        .table-wrapper {
-            border-top: 0;
-        }
-    }
-}
-
-.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
-    //  Shopping cart link
-    .cart.table-wrapper {
-        .action-giftregistry {
-            .lib-icon-font(
-            @icon-gift-registry,
-            @_icon-font-size: 18px,
-            @_icon-font-line-height: 20px,
-            @_icon-font-text-hide: true,
-            @_icon-font-color: @minicart-icons-color,
-            @_icon-font-color-hover: @primary__color,
-            @_icon-font-color-active: @minicart-icons-color
-            );
-        }
+    .toolbar-giftregistry-results {
+        &:extend(.abs-pager-toolbar-mobile-s all);
     }
 }
 
@@ -267,74 +206,14 @@
     .form-giftregistry-share,
     .form-giftregistry-edit {
         &:extend(.abs-add-fields-desktop all);
-        &:extend(.abs-form-field-column-2 all);
-        .fieldset .field {
-            width: 45%;
-        }
-    }
-
-    .form-giftregistry-edit {
-        .fieldset.shipping_address {
-            .fieldset {
-                margin-top: @form-field__vertical-indent;
-            }
-        }
-    }
-
-    .form-giftregistry-create {
-        &:extend(.abs-forms-general-desktop all);
-    }
-
-    .table-giftregistry {
-        .col.create {
-            white-space: nowrap;
-        }
-
-        .col.message {
-            width: 40%;
-        }
-
-        .col.actions {
-            width: 30%;
-        }
-    }
-
-    .table-giftregistry-items {
-        .col.note {
-            width: 30%;
-        }
-
-        .account .data.table& {
-            .lib-table-bordered(
-            @_table_type: horizontal
-            );
-
-            th {
-                border-bottom: 0;
-            }
-
-            > tbody > tr:nth-child(even) {
-                > td,
-                > th {
-                    background: none;
-                }
-            }
-        }
     }
 
     .form-giftregistry-search {
         .fieldset {
             margin-bottom: @form-field__vertical-indent__desktop;
-
-            .field {
-                &.name,
-                &.lastname {
-                    .lib-form-field-column(@_column: true);
-                    margin-bottom: auto;
-                }
-
-                &.lastname {
-                    padding: 0;
+            > .fields-specific-options {
+                > .field {
+                    .lib-form-field-type-revert();
                 }
             }
         }
@@ -356,11 +235,6 @@
             .actions-toolbar {
                 &:extend(.abs-reset-left-margin-desktop all);
             }
-        }
-
-        .item {
-            border-bottom: @border-width__base solid @border-color__base;
-            border-top: 0;
         }
 
         .product {

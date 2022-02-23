@@ -18,7 +18,7 @@ p {
   margin-bottom: 10px;
 }
 abbr[title] {
-  border-bottom: 1px dotted #cccccc;
+  border-bottom: 1px dotted #d1d1d1;
   cursor: help;
 }
 b,
@@ -30,7 +30,7 @@ i {
   font-style: italic;
 }
 mark {
-  background: #f6f6f6;
+  background: #f0f0f0;
   color: #000000;
 }
 small,
@@ -39,7 +39,7 @@ small,
 }
 hr {
   border: 0;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #d1d1d1;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -77,7 +77,7 @@ h3 {
   font-weight: 300;
   line-height: 1.1;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 h4 {
@@ -121,12 +121,12 @@ h6 .small {
 }
 a,
 .alink {
-  color: #006bb4;
+  color: #1979c3;
   text-decoration: none;
 }
 a:visited,
 .alink:visited {
-  color: #006bb4;
+  color: #1979c3;
   text-decoration: none;
 }
 a:hover,
@@ -176,21 +176,21 @@ samp {
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 code {
-  background: #f6f6f6;
+  background: #f0f0f0;
   color: #111111;
   padding: 2px 4px;
   font-size: 12px;
   white-space: nowrap;
 }
 kbd {
-  background: #f6f6f6;
+  background: #f0f0f0;
   color: #111111;
   padding: 2px 4px;
   font-size: 12px;
 }
 pre {
-  background: #f6f6f6;
-  border: 1px solid #cccccc;
+  background: #f0f0f0;
+  border: 1px solid #d1d1d1;
   color: #111111;
   line-height: 1.42857143;
   margin: 0 0 10px;
@@ -208,7 +208,7 @@ pre code {
   white-space: pre-wrap;
 }
 blockquote {
-  border-left: 0 solid #cccccc;
+  border-left: 0 solid #d1d1d1;
   margin: 0 0 20px 40px;
   padding: 0;
   color: #333333;
@@ -314,21 +314,6 @@ cite {
   }
 }
 @media only screen and (max-width: 479px) {
-  .header,
-  .main-content,
-  .footer {
-    padding: 25px 10px !important;
-  }
-  .footer td {
-    display: block;
-    width: auto !important;
-  }
-  .email-features > tbody > tr > td {
-    clear: both;
-    display: block;
-    padding-top: 20px;
-    width: auto !important;
-  }
   .email-summary h1 {
     font-size: 24px !important;
   }
@@ -366,7 +351,7 @@ td {
   mso-table-rspace: 0pt;
 }
 a:visited {
-  color: #006bb4 !important;
+  color: #1979c3 !important;
   text-decoration: none !important;
 }
 a:hover {

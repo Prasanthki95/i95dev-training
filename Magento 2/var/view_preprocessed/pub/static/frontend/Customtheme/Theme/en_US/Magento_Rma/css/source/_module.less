@@ -8,43 +8,35 @@
 //  _____________________________________________
 
 & when (@media-common = true) {
-    .order-details-items.rma {
-        .order-title {
-            display: none;
-
-            + .toolbar {
-                display: none;
-            }
-        }
-    }
-
     .form-create-return {
         &:extend(.abs-add-fields all);
+
+        .field {
+            .control > span,
+            address {
+                display: inline-block;
+                padding-top: @form-field-type-label-inline__padding-top;
+            }
+        }
 
         .additional {
             &:first-child {
                 margin-top: 0;
             }
+
+            .field:nth-last-child(2) {
+                margin-bottom: 0;
+            }
+
+            .field {
+                &:last-child {
+                    margin-top: @form-field__vertical-indent;
+                }
+            }
         }
 
         .field.comment {
             margin-top: 55px;
-        }
-
-        .actions-toolbar {
-            &:extend(.abs-add-clearfix all);
-        }
-    }
-
-    .return-status {
-        &:extend(.abs-status all);
-    }
-
-    .table-wrapper.table-returns {
-        .returns-details {
-            &.hidden {
-                display: none;
-            }
         }
     }
 
@@ -69,13 +61,22 @@
         }
 
         .fieldset {
-            margin-bottom: @indent__base;
+            margin-bottom: 20px;
         }
     }
 
+    .return-status {
+        &:extend(.abs-status all);
+    }
+
     .magento-rma-returns-returns,
+    .magento-rma-guest-returns,
     .magento-rma-returns-view {
-        &:extend(.abs-title-orders all);
+        .page-title-wrapper {
+            .page-title {
+                margin-right: 25px;
+            }
+        }
     }
 
     //
@@ -88,18 +89,6 @@
                 &:extend(.abs-account-blocks all);
             }
         }
-
-        &:extend(.abs-title-orders all);
-    }
-
-    .magento-rma-guest-create {
-        .order-links {
-            .item {
-                a {
-                    .lib-button-as-link(@_margin: 0 @indent__l 0 0);
-                }
-            }
-        }
     }
 }
 
@@ -107,22 +96,13 @@
 //  Mobile
 //  _____________________________________________
 
-.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
     .form-create-return {
-        .additional {
-            .field:nth-last-child(2) {
-                margin-bottom: 0;
-            }
-
-            .field:last-child {
-                margin-top: @form-field__vertical-indent;
+        .fieldset {
+            > .actions-toolbar {
+                &:extend(.abs-add-clearfix-mobile-m all);
             }
         }
-    }
-
-    .magento-rma-returns-returns,
-    .magento-rma-returns-view {
-        &:extend(.abs-title-orders-mobile all);
     }
 
     .account {
@@ -140,10 +120,6 @@
             }
         }
     }
-
-    .table-wrapper.table-returns {
-        &:extend(.abs-no-border-top all);
-    }
 }
 
 //
@@ -153,30 +129,28 @@
 .media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
     .form-create-return {
         &:extend(.abs-add-fields-desktop all);
-        &:extend(.abs-form-field-column-2 all);
-        .fieldset .field {
-            width: 45%;
+        .additional {
+            .field:last-child {
+                margin-top: @form-field__vertical-indent__desktop;
+            }
         }
     }
 
-    .return-status {
-        &:extend(.abs-status-desktop all);
-    }
-
-    .magento-rma-returns-returns,
-    .magento-rma-returns-view {
-        &:extend(.abs-title-orders-desktop all);
-    }
+    //
+    //  Guest return view page
+    //  ---------------------------------------------
 
     .magento-rma-guest-returns {
-        .column.main .block.block-order-details-view {
-            &:extend(.abs-add-clearfix-desktop all);
+        .column.main {
+            .block:not(.widget) {
+                .block-content {
+                    &:extend(.abs-add-clearfix-desktop all);
 
-            .block-content:not(.widget) .box {
-                &:extend(.abs-add-box-sizing-desktop all);
-                clear: none;
-                float: left;
-                width: 100%/4;
+                    .box {
+                        &:extend(.abs-blocks-2columns all);
+                        margin-bottom: @indent__base;
+                    }
+                }
             }
         }
     }
@@ -190,20 +164,6 @@
             .actions-track {
                 float: right;
                 margin-top: 12px;
-            }
-        }
-    }
-}
-
-#registrant-options {
-    .item {
-        .control {
-            table {
-                .col.qty {
-                    .input-qty {
-                        display: none;
-                    }
-                }
             }
         }
     }

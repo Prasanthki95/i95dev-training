@@ -22,10 +22,10 @@
 @modal-overlay__background-color: fade(@color-gray20, 55%);
 
 @modal-action-close__color: @primary__color;
-@modal-action-close__font-size: @font-size__base;
+@modal-action-close__font-size: 32px;
 @modal-action-close__hover__color: darken(@primary__color, 10%);
 
-@modal-slide-action-close__padding: @modal-slide-header__padding-vertical @modal-popup__padding;
+@modal-slide-action-close__padding: @modal-slide-header__padding-vertical - 1rem @modal-popup__padding - 1rem;
 
 //
 //  Common
@@ -58,7 +58,7 @@
 
     .modal-custom {
         .action-close {
-            .lib-css(margin, 15px);
+            .lib-css(margin, @indent__m);
         }
     }
 
@@ -76,14 +76,13 @@
         }
 
         .action-close {
-            padding: @indent__base;
+            padding: @indent__s;
         }
     }
 
     .modal-slide {
         .action-close {
-            margin: 15px;
-            padding: 0;
+            padding: @modal-slide-action-close__padding;
         }
 
         .page-main-actions {
@@ -123,6 +122,7 @@
     .custom-slide {
         .lib-modal();
         .lib-modal-slide();
+
         &._show {
             -webkit-overflow-scrolling: touch;
             overflow-x: hidden;

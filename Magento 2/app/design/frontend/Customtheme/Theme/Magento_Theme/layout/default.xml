@@ -16,14 +16,6 @@
             <block class="Magento\Framework\View\Element\Js\Cookie" name="js_cookies" template="Magento_Theme::js/cookie.phtml"/>
             <block class="Magento\Theme\Block\Html\Notices" name="global_notices" template="Magento_Theme::html/notices.phtml"/>
         </referenceContainer>
-        <referenceBlock name="logo">
-            <arguments>
-                <argument name="logo_file" xsi:type="string">images/logo.svg</argument>
-                <argument name="logo_width" xsi:type="number">120</argument>
-                <argument name="logo_height" xsi:type="number">80</argument>
-                <argument name="logo_alt" xsi:type="string">Logo name</argument>
-            </arguments>
-        </referenceBlock>
         <referenceBlock name="top.links">
             <block class="Magento\Theme\Block\Html\Header" name="header" as="header" before="-">
                 <arguments>
@@ -143,5 +135,6 @@
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\FormKey" name="formkey"/>
         </referenceContainer>
+        
     </body>
 </page>

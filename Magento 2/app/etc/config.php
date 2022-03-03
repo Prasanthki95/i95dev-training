@@ -357,6 +357,7 @@ return [
         'I95dev_Addproductattribute' => 1,
         'I95dev_BlockModule' => 1,
         'I95dev_CustomerAttribute' => 1,
+        'I95dev_EmployeeForm' => 1,
         'I95dev_HelloWorld' => 1,
         'I95dev_HelloWorld2' => 1,
         'I95dev_employeeTable' => 1,

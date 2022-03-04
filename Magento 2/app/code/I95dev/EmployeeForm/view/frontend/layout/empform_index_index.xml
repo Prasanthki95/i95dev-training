@@ -1,7 +1,12 @@
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd" layout="1column">
+<?xml version="1.0"?>
+<page layout="2columns-left" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Employee-Form-Page</title>
+    </head>
     <body>
+        <referenceBlock name="navigation.sections" remove="true" />
         <referenceContainer name="content">
-            <block class="I95dev\EmployeeForm\Block\Helloworld" name="empform" template="form.phtml" />
+            <block class="I95dev\EmployeeForm\Block\Helloworld" name="empform" template="I95dev_EmployeeForm::form.phtml"/>
         </referenceContainer>
     </body>
 </page>

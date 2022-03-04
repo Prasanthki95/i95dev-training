@@ -8,10 +8,10 @@ class Interceptor extends \I95dev\EmployeeForm\Controller\Index\Index implements
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Framework\App\Action\Context $context, \Magento\Framework\View\Result\PageFactory $resultPageFactory)
+    public function __construct(\Magento\Framework\App\Action\Context $context)
     {
         $this->___init();
-        parent::__construct($context, $resultPageFactory);
+        parent::__construct($context);
     }
 
     /**

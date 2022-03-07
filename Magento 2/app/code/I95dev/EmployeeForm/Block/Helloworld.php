@@ -1,35 +1,19 @@
 <?php
-
+ 
 namespace I95dev\EmployeeForm\Block;
-
-class Helloworld extends \Magento\Framework\View\Element\Template
+ 
+use Magento\Framework\View\Element\Template;
+use Magento\Backend\Block\Template\Context;
+ 
+class Helloworld extends Template
 {
-    /**
-     * Construct
-     *
-     * @param \Magento\Framework\View\Element\Template\Context $context
-     * @param array $data
-     */
-    public function __construct(
-        \Magento\Backend\Block\Template\Context $context,
-        array $data = []
-    )
+    public function __construct(Context $context, array $data = [])
     {
         parent::__construct($context, $data);
-       }
-
-    /**
-     * Get form action URL for POST booking request
-     *
-     * @return string
-     */
+    }
+ 
     public function getFormAction()
     {
-            // companymodule is given in routes.xml
-            // controller_name is folder name inside controller folder
-            // action is php file name inside above controller_name folder
         return $this->getUrl('empform/Index/Index', ['_secure' => true]);
-        // here controller_name is index, action is booking
     }
 }
-

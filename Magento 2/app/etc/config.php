@@ -360,6 +360,7 @@ return [
         'I95dev_EmployeeForm' => 1,
         'I95dev_HelloWorld' => 1,
         'I95dev_HelloWorld2' => 1,
+        'I95dev_NewCustomTab' => 1,
         'I95dev_employeeTable' => 1,
         'Klarna_Core' => 1,
         'Klarna_Ordermanagement' => 1,

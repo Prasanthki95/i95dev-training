@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1646745645;s:6:"expire";i:1678281645;s:4:"tags";s:37:"e2b_LAYOUT_GENERAL_CACHE_TAG,e2b_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1647350587;s:6:"expire";i:1678886587;s:4:"tags";s:37:"e2b_LAYOUT_GENERAL_CACHE_TAG,e2b_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -813,14 +813,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1646745645;s:6:"expire";i:1678281645;s:4:"t
    </referenceBlock>
 </body>
 </handle><handle id="default"><body>
-   <block class="Magento\Framework\Pricing\Render" name="product.price.render.default">
-      <arguments>
-         <argument name="price_render_handle" xsi:type="string">catalog_product_prices</argument>
-         <argument name="use_link_for_as_low_as" xsi:type="boolean">true</argument>
-      </arguments>
-   </block>
-</body>
-</handle><handle id="default"><body>
    <referenceContainer name="before.body.end">
       <block class="Magento\Catalog\Block\FrontendStorageManager" name="frontend-storage-manager" before="-" template="Magento_Catalog::frontend_storage_manager.phtml">
          <arguments>
@@ -877,6 +869,14 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1646745645;s:6:"expire";i:1678281645;s:4:"t
       <block class="Magento\Framework\View\Element\Js\Components" name="head.components" as="components" template="Magento_Catalog::js/components.phtml"/>
    </referenceContainer>
    <block class="Magento\Framework\View\Element\Template" name="head.additional" as="head.additional" template="Magento_Theme::html/container.phtml"/>
+</body>
+</handle><handle id="default"><body>
+   <block class="Magento\Framework\Pricing\Render" name="product.price.render.default">
+      <arguments>
+         <argument name="price_render_handle" xsi:type="string">catalog_product_prices</argument>
+         <argument name="use_link_for_as_low_as" xsi:type="boolean">true</argument>
+      </arguments>
+   </block>
 </body>
 </handle><handle id="empty"><body>
    <block class="Magento\Framework\Pricing\Render" name="product.price.render.default">
@@ -7308,15 +7308,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1646745645;s:6:"expire";i:1678281645;s:4:"t
       </block>
    </referenceBlock>
 </body>
-</handle><handle id="empform_index_index" layout="2columns-left"><head>
-   <title>Employee-Form-Page</title>
-</head>
-<body>
-   <referenceBlock name="navigation.sections" remove="true"/>
-   <referenceContainer name="content">
-      <block class="I95dev\EmployeeForm\Block\Helloworld" name="empform" template="I95dev_EmployeeForm::form.phtml"/>
-   </referenceContainer>
-</body>
 </handle><handle id="helloworld_index_index" layout="1column"><referenceContainer name="content">
    <block class="I95dev\HelloWorld\Block\Index" name="helloworld_index_index" template="I95dev_HelloWorld::index.phtml"/>
 </referenceContainer>
@@ -7324,15 +7315,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1646745645;s:6:"expire";i:1678281645;s:4:"t
    <referenceContainer name="content">
       <block class="I95dev\HelloWorld2\Block\Helloworld" name="sample" template="helloworld.phtml"/>
    </referenceContainer>
-</body>
-</handle><handle id="catalog_product_view" layout="1column"><body>
-   <referenceBlock name="product.info.details">
-      <block class="Magento\Catalog\Block\Product\View" name="custom.tab" template="I95dev_BlockModule::Product/view/Email_tab.phtml" group="detailed_info">
-         <arguments>
-            <argument translate="true" name="title" xsi:type="string">Email Tab</argument>
-         </arguments>
-      </block>
-   </referenceBlock>
 </body>
 </handle><handle id="checkout_index_index"><body>
    <referenceBlock name="checkout.root">
